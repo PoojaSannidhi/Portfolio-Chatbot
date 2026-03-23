@@ -205,3 +205,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+echo ".env" >> .gitignore
+echo "portfolio.db" >> .gitignore
+echo "me/" >> .gitignore
+echo "__pycache__/" >> .gitignore
